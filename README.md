@@ -1,4 +1,4 @@
-## 1. Quadrotor Control Using Cascade PD Controller
+# Control and Path Planning of Quadrotor
 
 *Advanced Robotics Project in University of Pennsylvania*
 
