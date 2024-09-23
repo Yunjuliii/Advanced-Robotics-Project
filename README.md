@@ -21,7 +21,7 @@ In the second part of the project, two path planning algorithms were implemented
 
 - **Dijkstra Algorithm:** This algorithm finds the shortest path without considering heuristic information, ensuring optimality.
   
-  ![Dijkstra Algorithm](./assets/dijkstra.png)
+  ![Dijkstra Algorithm](./assets/Dijkstra.png)
 
 - **A* Algorithm:** This algorithm uses a heuristic to improve search efficiency while maintaining optimality.
 
