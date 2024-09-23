@@ -6,7 +6,7 @@
 
 In this part of the project, a cascade PD controller was implemented to control the quadrotor to follow a pre-defined trajectory. The control system is designed to regulate both position and orientation of the quadrotor, ensuring it accurately tracks the reference path. Below is the MATLAB simulation result showing the quadrotor’s performance on the given trajectory:
 
-![Quadrotor Trajectory](path_to_your_matlab_image.png)
+![Quadrotor Trajectory](./assets/hover.png)
 
 ## 2. Path Planning Algorithms
 
