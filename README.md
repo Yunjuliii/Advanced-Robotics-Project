@@ -1,5 +1,9 @@
 ## 1. Quadrotor Control Using Cascade PD Controller
 
+*Advanced Robotics Project in University of Pennsylvania*
+
+## 1. Quadrotor Control Using Serial PD Controller
+
 In this part of the project, a cascade PD controller was implemented to control the quadrotor to follow various trajectories. The control system regulates both position and orientation, ensuring that the quadrotor accurately tracks the reference path. Below are the simulation results from MATLAB for three different types of trajectories:
 
 - **Hover Test:** In this test, the quadrotor maintains a stable hover at a fixed position.
