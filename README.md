@@ -1,12 +1,19 @@
-# Control and Path Planning of Quadrotor
-
-*Advanced Robotics Project in University of Pennsylvania*
-
 ## 1. Quadrotor Control Using Cascade PD Controller
 
-In this part of the project, a cascade PD controller was implemented to control the quadrotor to follow a pre-defined trajectory. The control system is designed to regulate both position and orientation of the quadrotor, ensuring it accurately tracks the reference path. Below is the MATLAB simulation result showing the quadrotor’s performance on the given trajectory:
+In this part of the project, a cascade PD controller was implemented to control the quadrotor to follow various trajectories. The control system regulates both position and orientation, ensuring that the quadrotor accurately tracks the reference path. Below are the simulation results from MATLAB for three different types of trajectories:
 
-![Quadrotor Trajectory](./assets/hover.png)
+- **Hover Test:** In this test, the quadrotor maintains a stable hover at a fixed position.
+
+  ![Hover Test](./assets/hover.png)
+
+- **Circle Trajectory:** The quadrotor follows a circular path, demonstrating its ability to track smooth curves.
+
+  ![Circle Trajectory](./assets/circle.png)
+
+- **Diamond Trajectory:** The quadrotor follows a diamond-shaped trajectory, which includes sharp turns.
+
+  ![Diamond Trajectory](./assets/diamond.png)
+
 
 ## 2. Path Planning Algorithms
 
@@ -14,8 +21,8 @@ In the second part of the project, two path planning algorithms were implemented
 
 - **Dijkstra Algorithm:** This algorithm finds the shortest path without considering heuristic information, ensuring optimality.
   
-  ![Dijkstra Algorithm](path_to_dijkstra_image.png)
+  ![Dijkstra Algorithm](./assets/dijkstra.png)
 
 - **A* Algorithm:** This algorithm uses a heuristic to improve search efficiency while maintaining optimality.
 
-  ![A* Algorithm](path_to_a_star_image.png)
+  ![A* Algorithm](./assets/A.png)
