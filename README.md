@@ -1,6 +1,5 @@
 # Control and Path Planning of Quadrotor
 
-*Advanced Robotics Project in University of Pennsylvania*
 
 ## 1. Quadrotor Control Using Serial PD Controller
 
